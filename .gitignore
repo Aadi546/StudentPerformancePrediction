@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit local settings
+.streamlit/
+
+# Raw dataset archives and large unzipped raw data (> 50-100 MB)
+*.zip
+data/raw/
+
+# Processed large parquets can be tracked or excluded (comment if you want to push them)
+# data/processed/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
